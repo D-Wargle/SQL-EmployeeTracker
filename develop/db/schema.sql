@@ -1,4 +1,4 @@
---Check for existing database and erase, then create new database
+--chedck for database and add if not exists
 DROP DATABASE IF EXISTS employee_db;
 CREATE DATABASE employee_db;
 
@@ -24,6 +24,6 @@ CREATE TABLE employees(
     id SERIAL PRIMARY KEY,
     firstName VARCHAR(100) NOT NULL,
     lastName VARCHAR(100) NOT NULL,
-    roleID INTEGER REFERENCES roles(id),
-    managerID INTEGER REFERENCES employees(id)
+    role_id INTEGER REFERENCES roles(id),
+    manager_id INTEGER REFERENCES employees(id) ON DELETE SET NULL
 );
