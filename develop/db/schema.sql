@@ -1,4 +1,4 @@
---chedck for database and add if not exists
+--check for database and add if not exists
 DROP DATABASE IF EXISTS employee_db;
 CREATE DATABASE employee_db;
 
