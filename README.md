@@ -43,3 +43,6 @@ Contributions are welcome. Please submit a pull request or open an issue for any
 ## Credits
 
 Credits: OpenAI, classmates, tutors
+
+## Recording
+Google Drive Link: https://drive.google.com/file/d/1mWUkq7lw-miMVSJjpzn9e9KphhsABYKu/view
